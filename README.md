@@ -1,4 +1,5 @@
 ## wildberries.ru scraping | Pet project
+###### puppeteer | node-postgres | lodash
 
 The program scrapes the searching results on wildberries.ru and post them to the local database.
 
@@ -10,4 +11,4 @@ Scraping and parsing search results: */src/catalogue-scrape.js*
 
 Scraping and parsing goods parameters: */src/goods-scrape.js*
 
-Searching query phrases: */src/consumer-request*
+Searching query phrases: */src/consumer-request.js*
