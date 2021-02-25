@@ -1,0 +1,32 @@
+{
+  "name": "wildberries-scraping",
+  "version": "1.0.0",
+  "description": "web-scraping of goods parameters on wildberries.ru using different searching request phrases",
+  "main": "./bin/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergey-ss-solovyov/wildberries-scraping.git"
+  },
+  "keywords": [
+    "node.js",
+    "puppeteer",
+    "node-postgres"
+  ],
+  "author": "slv-srg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergey-ss-solovyov/wildberries-scraping/issues"
+  },
+  "homepage": "https://github.com/sergey-ss-solovyov/wildberries-scraping#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "pg": "^8.5.1",
+    "puppeteer": "^7.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0"
+  }
+}
